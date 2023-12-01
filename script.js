@@ -9,19 +9,19 @@ class Animal {
   }
 
   makeSound() {
-    console.log("The Siamese makes a sound");
+    console.log("Generic animal sound");
   }
 }
 
 class Dog extends Animal {
   bark() {
-    console.log("woof");
+    console.log("Woof");
   }
 }
 
 class Cat extends Animal {
   purr() {
-    console.log("purr");
+    console.log("Purr");
   }
 }
 
